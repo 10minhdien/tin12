@@ -12,7 +12,7 @@ background-color: blue;
 .menu{
 flex: 5%
   background-color: steelblue;
-  color: lightblue;
+  color: aqua;
   display: flex;
 }
 .menu a{
