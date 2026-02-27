@@ -8,12 +8,13 @@ height: 100px;
 .header{
 flex: 15%;
 background-color: blue;
+text-align: center;
 }
 .menu{
 flex: 5%
-  background-color: steelblue;
-  color: aqua;
-  display: flex;
+background-color: steelblue;
+color: aqua;
+display: flex;
 }
 .menu a{
 padding: 15px 20px;
