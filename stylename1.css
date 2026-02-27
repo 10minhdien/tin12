@@ -12,7 +12,7 @@ text-align: center;
 }
 .menu{
 flex: 5%
-background-color: steelblue;
+background-color: aqua;
 color: aqua;
 display: flex;
 }
