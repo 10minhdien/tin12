@@ -8,7 +8,7 @@ height: 100px;
 .header{
 flex: 15%;
 background-color: lightgray;
-background: url() center / 100%;
+background: url(strawberrycat.png) center / 100%;
 text-align: center;
 }
 .menu{
