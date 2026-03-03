@@ -13,7 +13,6 @@ text-align: center;
 .menu{
 flex: 5%
 background-color: aqua;
-color: aqua;
 display: flex;
 }
 .menu a{
