@@ -8,12 +8,12 @@ height: 100px;
 .header{
 flex: 15%;
 background-color: lightgray;
-background: url(strawberrycat.png) center / 100%;
+background: url(strawberrycat.png) center / 100%; aspect-ratio: 6 / 1;
 text-align: center;
 }
 .menu{
 flex: 5%
-background-color: aqua;
+background-color: blue;
 display: flex;
 }
 .menu a{
