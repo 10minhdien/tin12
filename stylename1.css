@@ -7,7 +7,8 @@ height: 100vh;
 }
 .header{
 flex: 15%;
-background: url("images/file_00000000168c72088a10e1da28dec0ca.png") center / cover; aspect-ratio: 6 / 1;
+background: url("images/file_00000000168c72088a10e1da28dec0ca.png") center;
+aspect-ratio: 6 / 1;
 text-align: center;
 }
 .menu{
