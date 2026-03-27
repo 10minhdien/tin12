@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+  <body>
+    <h1>Phiếu đăng ký hội thao</h1>
+    <form action = "Contents/NV3popup.html" target = "info">
+      <label>
+        Họ và tên:
+        <input type = "text" name = "nametxt">
+      </label><br>
+        <label>
+          Email
+          <input type = "email" name = "emailtxt">
+        </label>
+      <label>Môn thi:<br>
+        <textarea name = "txtComment" rows ="6" cols = "40"></textarea>  
+        </label>
+    Thể loại môn thi<br>
+    <input type = "radio" name = "thaoBongChuyen">Công nghệ thông tin<br>
+    <input type = "radio" name = "thaoBongRo">Comics<br>
+    <input type = "radio" name = "thaoCauLong"><br>
+    <input type = "submit" name = "cmd" value = "Đăng ký">
+    </form>
+  </body>
+</html>
