@@ -13,13 +13,13 @@
           Email
           <input type = "email" name = "emailtxt">
         </label>
-      <label>Môn thi:<br>
-        <textarea name = "txtComment" rows ="6" cols = "40"></textarea>  
-        </label>
+      <input type = "radio" name = "Class">Lớp 10<br>
+      <input type = "radio" name = "Class">Lớp 11<br>
+      <input type = "radio" name = "Class">Lớp 12<br>
     Thể loại môn thi<br>
-    <input type = "radio" name = "thaoBongChuyen">Công nghệ thông tin<br>
-    <input type = "radio" name = "thaoBongRo">Comics<br>
-    <input type = "radio" name = "thaoCauLong"><br>
+    <input type = "checkbox" name = "thaoBongChuyen">Bóng chuyền<br>
+    <input type = "checkbox" name = "thaoBongRo">Bóng rổ<br>
+    <input type = "checkbox" name = "thaoCauLong">Cầu lông<br>
     <input type = "submit" name = "cmd" value = "Đăng ký">
     </form>
   </body>
