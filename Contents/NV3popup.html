@@ -5,10 +5,10 @@
 <body>
   <p id="kq"></p>
   <script>
-    let pp = new
-    let ten = pp.get("ten")
-    let dc = pp.get("email")
-    let yk = pp.get("comment")
+    let pp = new URLSearchParams(window.location.search);
+    let ten = pp.get("nametxt");
+    let dc = pp.get("emailtxt");
+    let yk = pp.get("txtComment");
     document.getElementById("kq").innerHTML = "Cảm ơn bạn " + ten + " email: " + dc 
       + "đã góp ý: <br>" + yk ;
   </script>
