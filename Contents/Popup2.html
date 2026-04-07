@@ -8,9 +8,8 @@
     let pp = new URLSearchParams(window.location.search);
     let ten = pp.get("nametxt");
     let dc = pp.get("emailtxt");
-    let yk = pp.get("txtComment");
-    document.getElementById("kq").innerHTML = ten + ", xin cảm ơn bạn vì ý kiến~ <br> Một biểu mẫu đã được gửi đến email: " + dc 
-      + " của bạn📧 <br> Chúng tôi nhận ý kiến của bạn🗣️: <br>" + yk + "<br> Mong được bạn tiếp tục giúp đỡ nâng cao chất lượng trường học♥️";
+    document.getElementById("kq").innerHTML = "Bạn" + ten + " đã được ghi nhận vào danh sách hội thao." <br> Một biểu mẫu đã được gửi đến email: " + dc 
+      + " của bạn, bao gồm thông tin chi tiết về hội thao. Chúc bạn thi đấu tốt!";
   </script>
   <form action = "NV1.html">
     <input type="submit" name="cmd" value="Return">
