@@ -5,6 +5,18 @@
   text-decoration: none;
  }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header h1 {
+  color: white;
+  font-size: 40pt;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
 .tieude{
   color: #d32f2f;
   font-weight: bold;
