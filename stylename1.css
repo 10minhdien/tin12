@@ -9,26 +9,26 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.tieude {
+.tieude{
   color: #d32f2f;
   font-weight: bold;
   font-size: 25pt;
   line-height: 1.5;
 }
 
-.noidung {
+.noidung{
   color: #333;
   font-style: normal;
   font-size: 14pt;
 }
 
-.border {
+.border{
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
 
-.header {
+.header{
   flex: 0 0 15%;
   background: url("images/file_00000000168c72088a10e1da28dec0ca.png") no-repeat center;
   background-size: cover;
@@ -37,7 +37,7 @@ body {
   justify-content: center;
 }
 
-.menu {
+.menu{
   flex: 0 0 50px;
   background-color: #2c3e50;
   display: flex;
@@ -45,7 +45,7 @@ body {
   padding: 0 20px;
 }
 
-.menu a {
+.menu a{
   color: #ecf0f1;
   padding: 0 20px;
   height: 100%;
@@ -54,23 +54,23 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.menu a:hover {
+.menu a:hover{
   background-color: #34495e;
 }
 
-.content {
+.content{
   flex: 1;
   background-color: #f9f9f9;
   display: flex;
 }
 
-.content iframe {
+.content iframe{
   width: 100%;
   height: 100%;
   border: none;
 }
 
-.footer {
+.footer{
   flex: 0 0 8%;
   background-color: #1a252f;
   color: white;
