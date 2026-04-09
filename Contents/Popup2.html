@@ -3,13 +3,13 @@
 <h1>Đăng ký thành công</h1><br>
 </head>
 <body>
-  <p id="kq"></p>
+  <p id="dk"></p>
   <script>
     let pp = new URLSearchParams(window.location.search);
     let ten = pp.get("nametxt");
     let dc = pp.get("emailtxt");
     let cl = pp.get("Class");
-    document.getElementById("kq").innerHTML = "Bạn" + ten + " đã được ghi nhận vào danh sách hội thao lớp " + cl + "<br> Một biểu mẫu đã được gửi đến email: " + dc 
+    document.getElementById("dk").innerHTML = "Bạn" + ten + " đã được ghi nhận vào danh sách hội thao lớp " + cl + "<br> Một biểu mẫu đã được gửi đến email: " + dc 
       + " bao gồm thông tin chi tiết về hội thao. Chúc bạn thi đấu tốt!";
   </script>
   <form action = "NV1.html">
