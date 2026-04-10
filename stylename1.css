@@ -1,5 +1,5 @@
 .tieude {color: #d32f2f; font-weight: bold; font-size: 25pt; line-height: 1.5}
-.noidung {color: black; font-style: normal; font-size: 14pt;}
+.noidung {color: #333; font-style: normal; font-size: 14pt;}
 .border{
 display: flex;
 flex-direction: column;
