@@ -25,11 +25,11 @@ text-align: center;
 }
 .menu{
 flex: 5%;
-color: #F0FFFF;
-background-color: #7FFFD4;
+background-color: #2c3e50;
 display: flex;
 }
 .menu a{
+colour: #ecf0f1;
 padding: 15px 20px;
 }
 .menu a:hover{
