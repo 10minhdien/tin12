@@ -5,6 +5,12 @@ display: flex;
 flex-direction: column;
 height: 100vh;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 .header{
 flex: 15%;
 background: url("images/file_00000000168c72088a10e1da28dec0ca.png") center;
