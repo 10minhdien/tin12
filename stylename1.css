@@ -11,6 +11,9 @@ height: 100vh;
   box-sizing: border-box;
   text-decoration: none;
 }
+.body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .header{
 flex: 15%;
 background: url("images/file_00000000168c72088a10e1da28dec0ca.png") center;
